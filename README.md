@@ -1,6 +1,6 @@
-# prismarine-tokens
+# prismarine-tokens-fixed
 Store and use authentication tokens instead of passwords to emulate the way the official launcher works
-
+This is simply a fork of prismarine-tokens with a minor patch applied to get it working. All credit goes to pqml. You can find the original project here -> https://github.com/pqml/prismarine-tokens
 ## Features
 
 * Store all authentications tokens to automatically reuse them on future connections
@@ -12,7 +12,7 @@ Store and use authentication tokens instead of passwords to emulate the way the 
 
 ## Installation
 
-`npm install prismarine-tokens`
+`npm install prismarine-tokens-fixed`
 
 
 ## Usage
@@ -21,7 +21,7 @@ Store and use authentication tokens instead of passwords to emulate the way the 
 
 ```js
 var mineflayer = require('mineflayer');
-var tokens = require('prismarine-tokens');
+var tokens = require('prismarine-tokens-fixed');
 
 var options = {
   host: 'localhost',   // optional
@@ -53,7 +53,7 @@ tokens.use(options, function(_err, _opts){
 
 ```js
 var mc = require('minecraft-protocol');
-var tokens = require('prismarine-tokens');
+var tokens = require('prismarine-tokens-fixed');
 
 var options = {
   host: 'localhost',   // optional

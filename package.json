@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pqml/prismarine-tokens-fixed.git"
+    "url": "git+https://github.com/Smadger1/prismarine-tokens-fixed.git"
   },
   "keywords": [
     "minecraft",
@@ -22,9 +22,9 @@
   "author": "pqml",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pqml/prismarine-tokens-fixed/issues"
+    "url": "https://github.com/Smadger1/prismarine-tokens-fixed/issues"
   },
-  "homepage": "https://github.com/pqml/prismarine-tokens-fixed#readme",
+  "homepage": "https://github.com/Smadger1/prismarine-tokens-fixed#readme",
   "dependencies": {
     "yggdrasil": "git+https://github.com/zekesonxx/node-yggdrasil.git"
   }
